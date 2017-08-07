@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Backbone</title>
+    <!--<script src="js/zepto.min.js"></script>-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/backbone.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div id ="divTwitterFeed">
+    <div id="divClientLogin">
+        UserName <input type="text" id="txtIdClient" placeholder="Username"><br /><br />
+        Password : <input type="password" id="txtNomClient" placeholder="Paasword"><br /><br />
+        <button id="cmdAddClient" class="hide">REGISTER</button>
+        <button id="login">Login</button>
+        <br>
+        <ul id="listeClient"></ul>
+    </div>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <div class="row hide">
+       <div class="col-md-4"></div>
+       <div class="container">
+          <div class="col-md-4">
+             <div class="panel panel-danger">
+                <div class="panel-heading">               
+                   <h3 class="panel-title"><i class="fa fa-twitter-square" aria-hidden="true"></i>
+                      Tweets by Salesforce
+                   </h3>
+                </div>
+                 <div> 
+                    <input type="text" id="txtSearch" placeholder="Search for something..">                
+                </div>
+                <div class="panel-body">               
+                   
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="col-md-4">
+       </div>
+    </div>
+</div>
+
+
+
+
+</body>
+<script src="js/Login.js"></script>
+</html>
